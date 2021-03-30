@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {  
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.h-100 {
+    min-height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #000;
+}
